@@ -13,7 +13,8 @@ class Vector2D :
         return self.x == other.x and self.y == other.y
 
     def __str__(self):
-        return '(%g, %g)' % (self.x, self.y)
+        return '(%g, %g)' % (self.x, self.y)   #old style
+        # return f"({self.x}, {self.y})"
 
 u = Vector2D(0,1)
 v = Vector2D(1,0)
